@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_d5d25bbd25cb42f0b9b7ad447667dacc {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_d5d25bbd25cb42f0b9b7ad447667dacc" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_d5d25bbd25cb42f0b9b7ad447667dacc = L.map(
+        'map_d5d25bbd25cb42f0b9b7ad447667dacc', {
+        center: [59.354752, 17.94207],
+        zoom: 10,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_42a2f86a675c4d3b87aa05e7eac190db = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_d5d25bbd25cb42f0b9b7ad447667dacc);
+    
+            var feature_group_144776a71e3340f6930d1d50231f5b1e = L.featureGroup(
+                ).addTo(map_d5d25bbd25cb42f0b9b7ad447667dacc);
+        
+    
+        var marker_541ea63f278b4cedb0c7220e3059d8cc = L.marker(
+            [59.39883336358132, 17.856802919412292],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_3cd85ca4289545e19c808ee384a07412 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_541ea63f278b4cedb0c7220e3059d8cc.setIcon(icon_3cd85ca4289545e19c808ee384a07412);
+            
+    
+            var popup_4580feda673c4d5d83c9fe146c10a98e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4eda82b1c6f54bd292ad816fb933d39f = $(`<div id="html_4eda82b1c6f54bd292ad816fb933d39f" style="width: 100.0%; height: 100.0%;">Edwin Ahlstrand  Fågelvägen 25, 175 64, Järfälla</div>`)[0];
+                popup_4580feda673c4d5d83c9fe146c10a98e.setContent(html_4eda82b1c6f54bd292ad816fb933d39f);
+            
+
+            marker_541ea63f278b4cedb0c7220e3059d8cc.bindPopup(popup_4580feda673c4d5d83c9fe146c10a98e)
+            ;
+
+            
+        
+    
+        var marker_224fd33aca4145d2a08ca72dcb6e3dc7 = L.marker(
+            [59.452485570892854, 17.813973644555688],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_b5ca8b9bf1924a1ebfcd9e24c421db55 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_224fd33aca4145d2a08ca72dcb6e3dc7.setIcon(icon_b5ca8b9bf1924a1ebfcd9e24c421db55);
+            
+    
+            var popup_549af14b664c4b95af536966c1bd2fb9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5077d2d4c96548b387e426ee03276c63 = $(`<div id="html_5077d2d4c96548b387e426ee03276c63" style="width: 100.0%; height: 100.0%;">David Aldenbro  Trollvägen 3, 176 70, Järfälla</div>`)[0];
+                popup_549af14b664c4b95af536966c1bd2fb9.setContent(html_5077d2d4c96548b387e426ee03276c63);
+            
+
+            marker_224fd33aca4145d2a08ca72dcb6e3dc7.bindPopup(popup_549af14b664c4b95af536966c1bd2fb9)
+            ;
+
+            
+        
+    
+        var marker_7171c332cca84b39ae22d652f47651c2 = L.marker(
+            [59.30843747821569, 18.138969010271772],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_418f688c536849e88d41f86ee9aecbd5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7171c332cca84b39ae22d652f47651c2.setIcon(icon_418f688c536849e88d41f86ee9aecbd5);
+            
+    
+            var popup_39b40d33561e4e7caa5cc0278a84af39 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a4ed8d8244344649a9debc745bb2d158 = $(`<div id="html_a4ed8d8244344649a9debc745bb2d158" style="width: 100.0%; height: 100.0%;">Annahi Barrera Mondaca  Gamla Värmdövägen 11, 131 37, Nacka</div>`)[0];
+                popup_39b40d33561e4e7caa5cc0278a84af39.setContent(html_a4ed8d8244344649a9debc745bb2d158);
+            
+
+            marker_7171c332cca84b39ae22d652f47651c2.bindPopup(popup_39b40d33561e4e7caa5cc0278a84af39)
+            ;
+
+            
+        
+    
+        var marker_96f3f1a324354ac1aa1aeedb1acebf34 = L.marker(
+            [59.32852937333348, 18.292133338305888],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_eeb75b654f90424c9e1fe1505dd05006 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_96f3f1a324354ac1aa1aeedb1acebf34.setIcon(icon_eeb75b654f90424c9e1fe1505dd05006);
+            
+    
+            var popup_deddba5df0bc4751b81a428e1ebf90b2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_84a3dc2c14b64c12970bf7184f237d3f = $(`<div id="html_84a3dc2c14b64c12970bf7184f237d3f" style="width: 100.0%; height: 100.0%;">Tuva Bartak  Eriksviksvägen 3, 132 36, Saltsjö-Boo</div>`)[0];
+                popup_deddba5df0bc4751b81a428e1ebf90b2.setContent(html_84a3dc2c14b64c12970bf7184f237d3f);
+            
+
+            marker_96f3f1a324354ac1aa1aeedb1acebf34.bindPopup(popup_deddba5df0bc4751b81a428e1ebf90b2)
+            ;
+
+            
+        
+    
+        var marker_6159099dd4474e988c56f3fc59a2da4b = L.marker(
+            [59.160200464942804, 18.145234305701546],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_66ebc4205d4647028328dbd1c3e45f76 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6159099dd4474e988c56f3fc59a2da4b.setIcon(icon_66ebc4205d4647028328dbd1c3e45f76);
+            
+    
+            var popup_a53096299b7b404d9a717584e563d827 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a8481401598f48e3821bc28e939fd444 = $(`<div id="html_a8481401598f48e3821bc28e939fd444" style="width: 100.0%; height: 100.0%;">Sebastian Bergström  Vallavägen 109, 136 41, Haninge</div>`)[0];
+                popup_a53096299b7b404d9a717584e563d827.setContent(html_a8481401598f48e3821bc28e939fd444);
+            
+
+            marker_6159099dd4474e988c56f3fc59a2da4b.bindPopup(popup_a53096299b7b404d9a717584e563d827)
+            ;
+
+            
+        
+    
+        var marker_0d580c0d9ac04e7cbd2e210b6314f63b = L.marker(
+            [59.35323480599, 17.89080644116795],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_d27520bd14294b4688feac12adbf480b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0d580c0d9ac04e7cbd2e210b6314f63b.setIcon(icon_d27520bd14294b4688feac12adbf480b);
+            
+    
+            var popup_de085e99b03f4b1eb02504dc305d1e0d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ed35a3e7d5da4ddf9c19c4b8caa04c66 = $(`<div id="html_ed35a3e7d5da4ddf9c19c4b8caa04c66" style="width: 100.0%; height: 100.0%;">David Byström  Anundsvägen 32, 168 53, Bromma</div>`)[0];
+                popup_de085e99b03f4b1eb02504dc305d1e0d.setContent(html_ed35a3e7d5da4ddf9c19c4b8caa04c66);
+            
+
+            marker_0d580c0d9ac04e7cbd2e210b6314f63b.bindPopup(popup_de085e99b03f4b1eb02504dc305d1e0d)
+            ;
+
+            
+        
+    
+        var marker_bb1a7bcc521940deabe1897db65fcc4a = L.marker(
+            [59.37591177768482, 17.883684380402624],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_3ba38c48a5cf4dd2a878ca17b4be7280 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bb1a7bcc521940deabe1897db65fcc4a.setIcon(icon_3ba38c48a5cf4dd2a878ca17b4be7280);
+            
+    
+            var popup_3ed77fad562f487490740ac256153f0b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f67812694f074a3aae1b52dd30bdbaef = $(`<div id="html_f67812694f074a3aae1b52dd30bdbaef" style="width: 100.0%; height: 100.0%;">Carl Chemnitz  Kälvestavägen 46, 163 54, Spånga</div>`)[0];
+                popup_3ed77fad562f487490740ac256153f0b.setContent(html_f67812694f074a3aae1b52dd30bdbaef);
+            
+
+            marker_bb1a7bcc521940deabe1897db65fcc4a.bindPopup(popup_3ed77fad562f487490740ac256153f0b)
+            ;
+
+            
+        
+    
+        var marker_9170272e4c5b4251a33dd2d47df84c17 = L.marker(
+            [59.31720409686077, 17.7199760824627],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_ae5e91335f2c4a4fa585160adcb4c36f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9170272e4c5b4251a33dd2d47df84c17.setIcon(icon_ae5e91335f2c4a4fa585160adcb4c36f);
+            
+    
+            var popup_9c4e764bacce4ddc9bcaece50a452bf5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bcdc061f3db44f9f8922406f7751116b = $(`<div id="html_bcdc061f3db44f9f8922406f7751116b" style="width: 100.0%; height: 100.0%;">Sebastian Danckwardt  Höglundavägen 10, 179 75, Skå</div>`)[0];
+                popup_9c4e764bacce4ddc9bcaece50a452bf5.setContent(html_bcdc061f3db44f9f8922406f7751116b);
+            
+
+            marker_9170272e4c5b4251a33dd2d47df84c17.bindPopup(popup_9c4e764bacce4ddc9bcaece50a452bf5)
+            ;
+
+            
+        
+    
+        var marker_aa3e5778769c4b789be5e3396320f4c3 = L.marker(
+            [59.34925778045478, 18.04833710297761],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_6e268c7902554360a8dfe3863641773f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aa3e5778769c4b789be5e3396320f4c3.setIcon(icon_6e268c7902554360a8dfe3863641773f);
+            
+    
+            var popup_75db1738fc8140d8876622fde7e2d204 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b75473579ba0498a81dd53aeff4ef0c4 = $(`<div id="html_b75473579ba0498a81dd53aeff4ef0c4" style="width: 100.0%; height: 100.0%;">Gustav Eriksson  Ynglingagatan 9, 113 47, Stockholm</div>`)[0];
+                popup_75db1738fc8140d8876622fde7e2d204.setContent(html_b75473579ba0498a81dd53aeff4ef0c4);
+            
+
+            marker_aa3e5778769c4b789be5e3396320f4c3.bindPopup(popup_75db1738fc8140d8876622fde7e2d204)
+            ;
+
+            
+        
+    
+        var marker_93adb9ee1aaf4dd5a2b0845a6fedb44b = L.marker(
+            [59.20521910851753, 17.76515637370888],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_6286fd640b7440f292d828f97ed8b2a1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_93adb9ee1aaf4dd5a2b0845a6fedb44b.setIcon(icon_6286fd640b7440f292d828f97ed8b2a1);
+            
+    
+            var popup_a2af9810e8534d9ebf07b773c48cf9d6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5f0fb339312a4c23a695f63aac7ec0c1 = $(`<div id="html_5f0fb339312a4c23a695f63aac7ec0c1" style="width: 100.0%; height: 100.0%;">Eric Forsell  Jägarstigen 56, 144 37, Rönninge</div>`)[0];
+                popup_a2af9810e8534d9ebf07b773c48cf9d6.setContent(html_5f0fb339312a4c23a695f63aac7ec0c1);
+            
+
+            marker_93adb9ee1aaf4dd5a2b0845a6fedb44b.bindPopup(popup_a2af9810e8534d9ebf07b773c48cf9d6)
+            ;
+
+            
+        
+    
+        var marker_23a094ba70df4a4bb81d06f2fef55715 = L.marker(
+            [59.38471211157596, 17.857453637717704],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_eaa6eeb51b7d4c8c8ea0bc94fcb79315 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23a094ba70df4a4bb81d06f2fef55715.setIcon(icon_eaa6eeb51b7d4c8c8ea0bc94fcb79315);
+            
+    
+            var popup_ff9f3733b91848c3892e24492490acae = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a9ea080c20cc48168d4296317e7978f7 = $(`<div id="html_a9ea080c20cc48168d4296317e7978f7" style="width: 100.0%; height: 100.0%;">Olle Granlöf  Tenorgränd 31, 162 47, Vällingby</div>`)[0];
+                popup_ff9f3733b91848c3892e24492490acae.setContent(html_a9ea080c20cc48168d4296317e7978f7);
+            
+
+            marker_23a094ba70df4a4bb81d06f2fef55715.bindPopup(popup_ff9f3733b91848c3892e24492490acae)
+            ;
+
+            
+        
+    
+        var marker_723c0e9046874c8da066ffcde8fa2b00 = L.marker(
+            [59.27338089537761, 17.875145193404446],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_317f368632254054aeae26dd6505e425 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_723c0e9046874c8da066ffcde8fa2b00.setIcon(icon_317f368632254054aeae26dd6505e425);
+            
+    
+            var popup_f8a7299da66f4870a9956ddcc00b4f9d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_53db3880616e49abbb0b008bdb4e3588 = $(`<div id="html_53db3880616e49abbb0b008bdb4e3588" style="width: 100.0%; height: 100.0%;">Albin Hainke  Örnholmsbrinken 106, 127 42, Skärholmen</div>`)[0];
+                popup_f8a7299da66f4870a9956ddcc00b4f9d.setContent(html_53db3880616e49abbb0b008bdb4e3588);
+            
+
+            marker_723c0e9046874c8da066ffcde8fa2b00.bindPopup(popup_f8a7299da66f4870a9956ddcc00b4f9d)
+            ;
+
+            
+        
+    
+        var marker_3ef861707c214fb2ab0fbf3a1b5f1d4c = L.marker(
+            [59.31793019346176, 18.00792637353597],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_622cd0ed6d0645d692000d3c36d89950 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3ef861707c214fb2ab0fbf3a1b5f1d4c.setIcon(icon_622cd0ed6d0645d692000d3c36d89950);
+            
+    
+            var popup_7356841a38494666987427758858ff89 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cbd8857bb51940f9b6b4fb61a28b1d09 = $(`<div id="html_cbd8857bb51940f9b6b4fb61a28b1d09" style="width: 100.0%; height: 100.0%;">Adrian Harju-Jeanty  Sjöbjörnsvägen 66B, 117 67, Stockholm</div>`)[0];
+                popup_7356841a38494666987427758858ff89.setContent(html_cbd8857bb51940f9b6b4fb61a28b1d09);
+            
+
+            marker_3ef861707c214fb2ab0fbf3a1b5f1d4c.bindPopup(popup_7356841a38494666987427758858ff89)
+            ;
+
+            
+        
+    
+        var marker_821458e17aec4293a784cef617183183 = L.marker(
+            [59.3655720663339, 17.96021568304575],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_0570c4fd3f5a421dadc4e1f0021f39a6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_821458e17aec4293a784cef617183183.setIcon(icon_0570c4fd3f5a421dadc4e1f0021f39a6);
+            
+    
+            var popup_61ffbd226b9443e2bb6018b2c3637fdd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_284615b2edfe41a1bcdd583972d75543 = $(`<div id="html_284615b2edfe41a1bcdd583972d75543" style="width: 100.0%; height: 100.0%;">Andreas Hedbjörn  Svalgränd 4, 172 36, Sundbyberg</div>`)[0];
+                popup_61ffbd226b9443e2bb6018b2c3637fdd.setContent(html_284615b2edfe41a1bcdd583972d75543);
+            
+
+            marker_821458e17aec4293a784cef617183183.bindPopup(popup_61ffbd226b9443e2bb6018b2c3637fdd)
+            ;
+
+            
+        
+    
+        var marker_fca53eea43f94d90b70085cac5c9bbc1 = L.marker(
+            [59.32546682041672, 18.20895378463836],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_40dc009b3dd042d29cadd4aeb832231b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fca53eea43f94d90b70085cac5c9bbc1.setIcon(icon_40dc009b3dd042d29cadd4aeb832231b);
+            
+    
+            var popup_79b02e5ce684481ea0e62b9b2e9f0ba9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_db174ad3e2964a8d8d593ab4a67e7fdd = $(`<div id="html_db174ad3e2964a8d8d593ab4a67e7fdd" style="width: 100.0%; height: 100.0%;">Melker Holmström  Rudsjövägen 56, 131 47, Nacka</div>`)[0];
+                popup_79b02e5ce684481ea0e62b9b2e9f0ba9.setContent(html_db174ad3e2964a8d8d593ab4a67e7fdd);
+            
+
+            marker_fca53eea43f94d90b70085cac5c9bbc1.bindPopup(popup_79b02e5ce684481ea0e62b9b2e9f0ba9)
+            ;
+
+            
+        
+    
+        var marker_467d93fc31274505ae6416436ae42758 = L.marker(
+            [59.3665314410237, 17.962169616971643],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_49796a521afe4a68a7200970236b11ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_467d93fc31274505ae6416436ae42758.setIcon(icon_49796a521afe4a68a7200970236b11ec);
+            
+    
+            var popup_c8dc39b9247d40d487fb75d99d8229fc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_47450d8e4d2b4188b0539d0adf3df80e = $(`<div id="html_47450d8e4d2b4188b0539d0adf3df80e" style="width: 100.0%; height: 100.0%;">Samuel Janson Entian  Starrbäcksgatan 11, 172 74, Sundbyberg</div>`)[0];
+                popup_c8dc39b9247d40d487fb75d99d8229fc.setContent(html_47450d8e4d2b4188b0539d0adf3df80e);
+            
+
+            marker_467d93fc31274505ae6416436ae42758.bindPopup(popup_c8dc39b9247d40d487fb75d99d8229fc)
+            ;
+
+            
+        
+    
+        var marker_263eb553998e467eb747667eb06950b4 = L.marker(
+            [59.29287573301966, 17.801528611287488],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_783b7f126c4a450ea29712ef9e4d3469 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_263eb553998e467eb747667eb06950b4.setIcon(icon_783b7f126c4a450ea29712ef9e4d3469);
+            
+    
+            var popup_59c3d40a1e254fc69524e419e7c0acbc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_788950358cea45728edc2d9ca582a8d9 = $(`<div id="html_788950358cea45728edc2d9ca582a8d9" style="width: 100.0%; height: 100.0%;">Pontus Karlsson  Tappströmsvägen 102, 178 32, Ekerö</div>`)[0];
+                popup_59c3d40a1e254fc69524e419e7c0acbc.setContent(html_788950358cea45728edc2d9ca582a8d9);
+            
+
+            marker_263eb553998e467eb747667eb06950b4.bindPopup(popup_59c3d40a1e254fc69524e419e7c0acbc)
+            ;
+
+            
+        
+    
+        var marker_e169836f32da41e5b90811a6904a3dd6 = L.marker(
+            [59.22770848788189, 18.222139136418708],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_c2dd7ce510174b06b5e0585d24a30519 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e169836f32da41e5b90811a6904a3dd6.setIcon(icon_c2dd7ce510174b06b5e0585d24a30519);
+            
+    
+            var popup_142158f0f8d349da9aa1284303ec1b82 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_311ba76a80bf44bdba058d68cdb01de5 = $(`<div id="html_311ba76a80bf44bdba058d68cdb01de5" style="width: 100.0%; height: 100.0%;">Ruben Karlsson  Skogsängsvägen 66, 135 55, Tyresö</div>`)[0];
+                popup_142158f0f8d349da9aa1284303ec1b82.setContent(html_311ba76a80bf44bdba058d68cdb01de5);
+            
+
+            marker_e169836f32da41e5b90811a6904a3dd6.bindPopup(popup_142158f0f8d349da9aa1284303ec1b82)
+            ;
+
+            
+        
+    
+        var marker_2acee0df40fc42e68fef184c4927674e = L.marker(
+            [59.26812968388246, 18.307153109094468],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_33423ae0a6cb416dafbbd0b47726d60a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2acee0df40fc42e68fef184c4927674e.setIcon(icon_33423ae0a6cb416dafbbd0b47726d60a);
+            
+    
+            var popup_9df6a6dd4f78407ca65c243d060be7ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_23ef25760bb941a4801417acf48a971d = $(`<div id="html_23ef25760bb941a4801417acf48a971d" style="width: 100.0%; height: 100.0%;">Axel Lilja  Gråstigen 5, 133 36, Nacka</div>`)[0];
+                popup_9df6a6dd4f78407ca65c243d060be7ba.setContent(html_23ef25760bb941a4801417acf48a971d);
+            
+
+            marker_2acee0df40fc42e68fef184c4927674e.bindPopup(popup_9df6a6dd4f78407ca65c243d060be7ba)
+            ;
+
+            
+        
+    
+        var marker_9ad35bb25fde48189d30de9779c5fbf3 = L.marker(
+            [59.32195212600269, 18.205299761151952],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_85133b93557645db97b36d8312524f24 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9ad35bb25fde48189d30de9779c5fbf3.setIcon(icon_85133b93557645db97b36d8312524f24);
+            
+    
+            var popup_c9b9dd4b84f247f590d6451e60f96fc9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1b8bc34ac4a144b89bbd670dec134c9f = $(`<div id="html_1b8bc34ac4a144b89bbd670dec134c9f" style="width: 100.0%; height: 100.0%;">Kajsa Lindahl  Hugins väg 9, 131 46, Nacka</div>`)[0];
+                popup_c9b9dd4b84f247f590d6451e60f96fc9.setContent(html_1b8bc34ac4a144b89bbd670dec134c9f);
+            
+
+            marker_9ad35bb25fde48189d30de9779c5fbf3.bindPopup(popup_c9b9dd4b84f247f590d6451e60f96fc9)
+            ;
+
+            
+        
+    
+        var marker_bf2c21ef0c3441f1b42f3453da81f042 = L.marker(
+            [59.5232866122398, 17.917492870679116],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_813054d6c52c488192ae6e3e07185dd2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bf2c21ef0c3441f1b42f3453da81f042.setIcon(icon_813054d6c52c488192ae6e3e07185dd2);
+            
+    
+            var popup_9e0b75bb5e154e90b1a2531e0ce1dd6d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fbcf959adf2748e094fbb97d80a3773b = $(`<div id="html_fbcf959adf2748e094fbb97d80a3773b" style="width: 100.0%; height: 100.0%;">David Mjärdner  Hagtornsvägen 2, 194 79, Upplands Väsby</div>`)[0];
+                popup_9e0b75bb5e154e90b1a2531e0ce1dd6d.setContent(html_fbcf959adf2748e094fbb97d80a3773b);
+            
+
+            marker_bf2c21ef0c3441f1b42f3453da81f042.bindPopup(popup_9e0b75bb5e154e90b1a2531e0ce1dd6d)
+            ;
+
+            
+        
+    
+        var marker_b045f42a00fe4ef0a61be55009fc8ba4 = L.marker(
+            [59.271962217871796, 17.77842066212681],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_a4858723b67c4f54bec585e27850f4de = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b045f42a00fe4ef0a61be55009fc8ba4.setIcon(icon_a4858723b67c4f54bec585e27850f4de);
+            
+    
+            var popup_25937d233a85424ba6ba3df482e88cb6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6161c583aa4640c09c533e550e342297 = $(`<div id="html_6161c583aa4640c09c533e550e342297" style="width: 100.0%; height: 100.0%;">Emil Nilsson Ljungdell  Stenslingan 1, 178 40, Ekerö</div>`)[0];
+                popup_25937d233a85424ba6ba3df482e88cb6.setContent(html_6161c583aa4640c09c533e550e342297);
+            
+
+            marker_b045f42a00fe4ef0a61be55009fc8ba4.bindPopup(popup_25937d233a85424ba6ba3df482e88cb6)
+            ;
+
+            
+        
+    
+        var marker_3e049f62b92d49bdbcf90c0268854bfe = L.marker(
+            [59.35981043104039, 18.20597958396327],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_ec878a9d48c6412795f5916dd36e238b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3e049f62b92d49bdbcf90c0268854bfe.setIcon(icon_ec878a9d48c6412795f5916dd36e238b);
+            
+    
+            var popup_6f21f5b2bb2f48efb82033e9c7bfe6e6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5db78f8083f143e0b442a6c4d5b6cc39 = $(`<div id="html_5db78f8083f143e0b442a6c4d5b6cc39" style="width: 100.0%; height: 100.0%;">Malcolm Ovin  Ollonstigen 5, 181 64, Lidingö</div>`)[0];
+                popup_6f21f5b2bb2f48efb82033e9c7bfe6e6.setContent(html_5db78f8083f143e0b442a6c4d5b6cc39);
+            
+
+            marker_3e049f62b92d49bdbcf90c0268854bfe.bindPopup(popup_6f21f5b2bb2f48efb82033e9c7bfe6e6)
+            ;
+
+            
+        
+    
+        var marker_7fde86b091af4188b2a8d151dac1caf0 = L.marker(
+            [59.36570931417931, 17.972494347461655],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_c0f363a083de456ea4615e88ac436ee0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7fde86b091af4188b2a8d151dac1caf0.setIcon(icon_c0f363a083de456ea4615e88ac436ee0);
+            
+    
+            var popup_d2774f4dd8044e85a27e08ac2dc26629 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c3a6cc20467420fa3e46c266aa22a7f = $(`<div id="html_9c3a6cc20467420fa3e46c266aa22a7f" style="width: 100.0%; height: 100.0%;">Madeleine Rogersdotter  Tulegatan 16, 172 78, Sundbyberg</div>`)[0];
+                popup_d2774f4dd8044e85a27e08ac2dc26629.setContent(html_9c3a6cc20467420fa3e46c266aa22a7f);
+            
+
+            marker_7fde86b091af4188b2a8d151dac1caf0.bindPopup(popup_d2774f4dd8044e85a27e08ac2dc26629)
+            ;
+
+            
+        
+    
+        var marker_871bcd61bfa94950a65ab16499c34b3e = L.marker(
+            [59.44025330004605, 17.93879248415964],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_353bf0c39d7d460d989197962da2590b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_871bcd61bfa94950a65ab16499c34b3e.setIcon(icon_353bf0c39d7d460d989197962da2590b);
+            
+    
+            var popup_f2e96e665054440abc0c6dfeb3f1d365 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_32945571f0774305aa9db03d4533aa3e = $(`<div id="html_32945571f0774305aa9db03d4533aa3e" style="width: 100.0%; height: 100.0%;">Oscar Salomonsson  Liljevägen 2B, 191 35, Sollentuna</div>`)[0];
+                popup_f2e96e665054440abc0c6dfeb3f1d365.setContent(html_32945571f0774305aa9db03d4533aa3e);
+            
+
+            marker_871bcd61bfa94950a65ab16499c34b3e.bindPopup(popup_f2e96e665054440abc0c6dfeb3f1d365)
+            ;
+
+            
+        
+    
+        var marker_a66401c839ed4ec5859336617709097a = L.marker(
+            [59.52428137691151, 17.918893178803884],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_ed4f60fabfc242b198d6be862775ce68 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a66401c839ed4ec5859336617709097a.setIcon(icon_ed4f60fabfc242b198d6be862775ce68);
+            
+    
+            var popup_97738c6472a74135acf1dc0d96de7d79 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a9687e46baf441d98b8b07c79f35a322 = $(`<div id="html_a9687e46baf441d98b8b07c79f35a322" style="width: 100.0%; height: 100.0%;">Atakan Sentürk  Holmvägen 15, 194 35, Upplands Väsby</div>`)[0];
+                popup_97738c6472a74135acf1dc0d96de7d79.setContent(html_a9687e46baf441d98b8b07c79f35a322);
+            
+
+            marker_a66401c839ed4ec5859336617709097a.bindPopup(popup_97738c6472a74135acf1dc0d96de7d79)
+            ;
+
+            
+        
+    
+        var marker_507cb93f35414c6c9680bca62402d257 = L.marker(
+            [59.41480768495032, 17.92245315803012],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_3af1f7eaf39c486e90b7ac9b78845bfa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_507cb93f35414c6c9680bca62402d257.setIcon(icon_3af1f7eaf39c486e90b7ac9b78845bfa);
+            
+    
+            var popup_96b1794269494f529256c6f677e1d032 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c50f9b81211640e6b6408c11f5c09191 = $(`<div id="html_c50f9b81211640e6b6408c11f5c09191" style="width: 100.0%; height: 100.0%;">Jessica Siddique  Kotkagatan 33, 164 75, Kista</div>`)[0];
+                popup_96b1794269494f529256c6f677e1d032.setContent(html_c50f9b81211640e6b6408c11f5c09191);
+            
+
+            marker_507cb93f35414c6c9680bca62402d257.bindPopup(popup_96b1794269494f529256c6f677e1d032)
+            ;
+
+            
+        
+    
+        var marker_5076b6fab8ee47b89bfc5375a80ccefb = L.marker(
+            [59.381759912574296, 18.058936160684517],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_14a00465ee9d46498c61715664eab8a6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5076b6fab8ee47b89bfc5375a80ccefb.setIcon(icon_14a00465ee9d46498c61715664eab8a6);
+            
+    
+            var popup_27962c7136e44065a1e32936070267f5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6685bf1801164f9e99e876281bc5d686 = $(`<div id="html_6685bf1801164f9e99e876281bc5d686" style="width: 100.0%; height: 100.0%;">Sofia Sörensson  Trastvägen 6, 182 79, Danderyd</div>`)[0];
+                popup_27962c7136e44065a1e32936070267f5.setContent(html_6685bf1801164f9e99e876281bc5d686);
+            
+
+            marker_5076b6fab8ee47b89bfc5375a80ccefb.bindPopup(popup_27962c7136e44065a1e32936070267f5)
+            ;
+
+            
+        
+    
+        var marker_925ab6aed69b4d16b7588cfc3c49dcd1 = L.marker(
+            [59.30800130751265, 18.093037054829576],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_9967b9a9c9a64058b938af20df2957ab = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_925ab6aed69b4d16b7588cfc3c49dcd1.setIcon(icon_9967b9a9c9a64058b938af20df2957ab);
+            
+    
+            var popup_95e717cb73764ae7be6eadb9d112b32d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f05e6f142a5e43e5ae4469de36f7bc7b = $(`<div id="html_f05e6f142a5e43e5ae4469de36f7bc7b" style="width: 100.0%; height: 100.0%;">Erik Tervo Ekelöf  Färgargårdstorget 88, 116 43, Stockholm</div>`)[0];
+                popup_95e717cb73764ae7be6eadb9d112b32d.setContent(html_f05e6f142a5e43e5ae4469de36f7bc7b);
+            
+
+            marker_925ab6aed69b4d16b7588cfc3c49dcd1.bindPopup(popup_95e717cb73764ae7be6eadb9d112b32d)
+            ;
+
+            
+        
+    
+        var marker_caf7b6caedcb4882af1a9dffec0e4638 = L.marker(
+            [59.62672057680721, 17.828846541115798],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_1bdda1928a42466fbef6711b53a4f2d0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_caf7b6caedcb4882af1a9dffec0e4638.setIcon(icon_1bdda1928a42466fbef6711b53a4f2d0);
+            
+    
+            var popup_425a485201b64997a005b9a9b694fecc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c2b0b642816f4ad9a7f09290aaecab27 = $(`<div id="html_c2b0b642816f4ad9a7f09290aaecab27" style="width: 100.0%; height: 100.0%;">Adam Zbati  Tvärvägen 11B, 195 32, Sigtuna</div>`)[0];
+                popup_425a485201b64997a005b9a9b694fecc.setContent(html_c2b0b642816f4ad9a7f09290aaecab27);
+            
+
+            marker_caf7b6caedcb4882af1a9dffec0e4638.bindPopup(popup_425a485201b64997a005b9a9b694fecc)
+            ;
+
+            
+        
+    
+        var marker_25713a943a1f44eeb403961bc870f477 = L.marker(
+            [59.37815655063776, 18.037363222863448],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_70de9e15d4f549b6a1032a236935f123 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_25713a943a1f44eeb403961bc870f477.setIcon(icon_70de9e15d4f549b6a1032a236935f123);
+            
+    
+            var popup_8543f107d8f54c04b5e5140dfb10edfb = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_98ce7f2169dd457fa8cfdadb54ad2331 = $(`<div id="html_98ce7f2169dd457fa8cfdadb54ad2331" style="width: 100.0%; height: 100.0%;">August Ågren  Åbergssons väg 15, 170 77, Solna</div>`)[0];
+                popup_8543f107d8f54c04b5e5140dfb10edfb.setContent(html_98ce7f2169dd457fa8cfdadb54ad2331);
+            
+
+            marker_25713a943a1f44eeb403961bc870f477.bindPopup(popup_8543f107d8f54c04b5e5140dfb10edfb)
+            ;
+
+            
+        
+    
+        var marker_d6cf0c8143aa40fea317daa26ba56294 = L.marker(
+            [59.50988152510252, 17.76400694587115],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_144776a71e3340f6930d1d50231f5b1e);
+        
+    
+
+                var icon_7766dc98349a4cacacaadfd6377b4d8d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6cf0c8143aa40fea317daa26ba56294.setIcon(icon_7766dc98349a4cacacaadfd6377b4d8d);
+            
+    
+            var popup_2e9c5f9667a649ed8a0c94acfae03908 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c67ca9c867d541fcb25830a49ea36354 = $(`<div id="html_c67ca9c867d541fcb25830a49ea36354" style="width: 100.0%; height: 100.0%;">Albin Östman  Gabardinvägen 12, 196 38, Kungsängen</div>`)[0];
+                popup_2e9c5f9667a649ed8a0c94acfae03908.setContent(html_c67ca9c867d541fcb25830a49ea36354);
+            
+
+            marker_d6cf0c8143aa40fea317daa26ba56294.bindPopup(popup_2e9c5f9667a649ed8a0c94acfae03908)
+            ;
+
+            
+        
+</script>
